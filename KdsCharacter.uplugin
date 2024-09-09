@@ -1,0 +1,40 @@
+﻿{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "KdsCharacter",
+  "Description": "ALS Character Controller Implementation for Nightmare Fuel Games",
+  "Category": "Character",
+  "CreatedBy": "Kasper de Bruin",
+  "CreatedByURL": "https://github.com/kasperhbo",
+  "DocsURL": "",
+  "CanContainContent": true,
+  "IsBetaVersion": true,
+  "IsExperimentalVersion": false,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "KdsCharacter",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "EnhancedInput",
+      "Enabled": true
+    },
+    {
+      "Name": "ALS",
+      "Enabled": true
+    },
+    {
+      "Name": "KdsMacroLib",
+      "Enabled": true
+    },
+    {
+      "Name": "KdsLogging",
+      "Enabled": true
+    }
+  ]
+}
